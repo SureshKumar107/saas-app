@@ -1,7 +1,7 @@
-🤖 LMS SaaS App with AI Voice Tutoring
+🤖 LMS SaaS App with AI Voice Tutoring:-
 Build and launch a full-featured LMS SaaS application from scratch using Next.js, Supabase, and Stripe. This project includes user authentication, subscription-based access, and secure payment integration. It also incorporates real-time learning with Vapi’s AI voice agent, enabling dynamic, interactive teaching sessions for a next-generation learning experience.
 
-⚙️ Tech Stack
+⚙️ Tech Stack:-
 Clerk
 Unified platform for authentication, user management, and billing. Offers embeddable UI components, APIs, and dashboards. Easily define plans, pricing pages, and access control based on subscription tiers.
 
@@ -32,7 +32,7 @@ JavaScript with static typing for improved developer tooling, scalability, and m
 Zod
 TypeScript-first schema validation library for safe and expressive data validation.
 
-🔋 Features
+🔋 Features:-
 🎙 AI Voice Agents — Take tutoring sessions with AI tutors that specialize in the subjects you choose.
 
 🔐 Authentication — Secure sign-up/sign-in with Clerk, including Google OAuth and more.
@@ -68,22 +68,15 @@ Node.js
 npm
 
 1. Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/SureshKumar107/saas-app.git
 cd saas-app
-2. Install Dependencies
-bash
-Copy
-Edit
+
+3. Install Dependencies
 npm install
-3. Configure Environment Variables
+
+5. Configure Environment Variables
 Create a .env file in the root of your project and add the following:
 
-env
-Copy
-Edit
 # Sentry
 SENTRY_AUTH_TOKEN=
 
@@ -103,9 +96,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 💡 Replace placeholders with your real credentials. Sign up for Supabase, Clerk, Stripe, Vapi, and Sentry to get your API keys.
 
 4. Run the Development Server
-bash
-Copy
-Edit
+
 npm run dev
 Open http://localhost:3000 to see your app in action.
 
