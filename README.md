@@ -58,12 +58,15 @@ npm (Node Package Manager)
 Cloning the Repository
 
 git clone https://github.com/SureshKumar107/saas-app.git
+
 cd saas-app
+
 Installation
 
 Install the project dependencies using npm:
 
 npm install
+
 Set Up Environment Variables
 
 Create a new file named .env in the root of your project and add the following content:
@@ -83,8 +86,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 
 # Supabase
 NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: Supabase, Clerk, Sentry, Vapi.
+NEXT_PUBLIC_SUPABASE_ANON_KEY=Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: Supabase, Clerk, Sentry, Vapi.
 
 Running the Project
 
